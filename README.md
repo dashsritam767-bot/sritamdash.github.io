@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Srabani Constructions — Odishaର trusted construction & development company. Building residential and commercial projects with quality and trust." />
+  <meta name="keywords" content="Srabani Constructions, Construction Odisha, Builders Bhubaneswar, Construction Company" />
+  <title>Srabani Constructions | Official</title>
+  <style>
+    :root{
+      --primary:#0b70c9;
+      --accent:#2fb34a;
+      --dark:#0a2340;
+      --muted:#666;
+      font-family: "Noto Sans Oriya", Arial, sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:#f7f9fb;color:#111}
+    .container{max-width:1100px;margin:20px auto;padding:18px}
+    header{display:flex;align-items:center;gap:16px;padding:14px 0}
+    header img.logo{width:90px;height:90px;object-fit:contain;border-radius:8px;background:#fff;padding:6px}
+    header .brand h1{margin:0;font-size:22px;color:var(--dark)}
+    header .brand p{margin:3px 0 0;color:var(--muted);font-size:14px}
+    nav{display:flex;gap:12px;margin:12px 0;flex-wrap:wrap}
+    nav a{padding:8px 12px;text-decoration:none;color:var(--primary);border-radius:6px}
+    .hero{background:#ffffff;padding:20px;border-radius:10px;display:grid;grid-template-columns:1fr 320px;gap:18px;align-items:center}
+    .hero h2{margin:0;color:var(--dark)}
+    .hero p{color:var(--muted);line-height:1.5}
+    .contact-card{background:linear-gradient(180deg,#fff,#f1fbf6);padding:12px;border-radius:8px;border:1px solid #e6f3ea}
+    .team{margin-top:18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+    .member{background:#fff;padding:12px;border-radius:8px;text-align:center;border:1px solid #eef3fb}
+    .member img{width:120px;height:120px;object-fit:cover;border-radius:50%;margin-bottom:8px}
+    .member h3{margin:6px 0 0;font-size:16px;color:var(--dark)}
+    .member p{margin:6px 0 0;color:var(--muted);font-size:14px}
+    footer{margin-top:22px;padding:16px;text-align:center;color:#fff;background:var(--dark);border-radius:8px}
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:12px}
+    .project{background:#fff;padding:12px;border-radius:8px;border:1px solid #eef3fb}
+    @media(max-width:800px){
+      .hero{grid-template-columns:1fr}
+      header{flex-direction:row;gap:10px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header>
+      <img src="company.png" alt="Srabani Constructions Logo" class="logo" />
+      <div class="brand">
+        <h1>Srabani Constructions</h1>
+        <p>Trusted Construction & Development — Odisha</p>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">ଆମ ବିଷୟରେ</a>
+      <a href="#services">ସେବା</a>
+      <a href="#team">ଟୀମ୍</a>
+      <a href="#contact">ଯୋଗାଯୋଗ</a>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div>
+        <h2>ବୃହତ୍ତର ନିର୍ମାଣ ସମାଧାନ — Srabani Constructions</h2>
+        <p>ଆମେ ଆପଣଙ୍କ ପାଇଁ ଗୃହ, ବ୍ୟବସାୟିକ ଇମାରତ ଏବଂ ଡେଭେଲପମେଣ୍ଟ ପ୍ରକଳ୍ପ ନିର୍ମାଣ କରୁ। Quality, time ଓ budget ରେ ଆମର କଠୋର ଦୃଢ଼ତା।</p>
+
+        <h3 id="about">ଆମ ବିଷୟରେ</h3>
+        <p>Srabani Constructions ହେଉଛି ଗୋଟେ ପ୍ରାମାଣିକ ନିର୍ମାଣ କମ୍ପାନୀ — ଯାହା ଓଡ଼ିଶା ଭିତରେ residential ଓ commercial ନିର୍ମାଣରେ ଅନୁଭବୀ। ଆମର ଲକ୍ଷ୍ୟ ହେଉଛି ସମୟ ମଧ୍ୟରେ ଗୁଣବତ୍ତା ସହିତ ପ୍ରକଳ୍ପ ସମ୍ପୂର୍ଣ୍ଣ କରିବା।</p>
+      </div>
+
+      <aside class="contact-card" id="contact">
+        <strong>ଯୋଗାଯୋଗ</strong>
+        <p style="margin:8px 0 0">ଠିକଣା: Bhubaneswar, Odisha</p>
+        <p style="margin:6px 0 0">Phone: +91 9XXXXXXXXX</p>
+        <p style="margin:6px 0 0">Email: info@srabaniconstructions.com</p>
+        <p style="margin-top:8px;font-size:13px;color:var(--muted)">Google Map ଓ Business Profile ଯୋଡ଼ନ୍ତୁ — ବେଶି ଲୋକ ଆସିବେ।</p>
+      </aside>
+    </section>
+
+    <!-- Services -->
+    <section id="services" style="margin-top:16px">
+      <h3>ଆମ ସେବା</h3>
+      <ul>
+        <li>Residential Building Construction</li>
+        <li>Commercial Projects</li>
+        <li>Project Management & Consultancy</li>
+        <li>Renovation & Interior Works</li>
+      </ul>
+    </section>
+
+    <!-- Projects (placeholder) -->
+    <section id="projects" style="margin-top:12px">
+      <h3>Completed Projects (ନମୁନା)</h3>
+      <div class="projects">
+        <div class="project"><strong>Project A</strong><p style="color:var(--muted);font-size:13px">Residential complex — Bhubaneswar</p></div>
+        <div class="project"><strong>Project B</strong><p style="color:var(--muted);font-size:13px">Commercial building — Cuttack</p></div>
+        <div class="project"><strong>Project C</strong><p style="color:var(--muted);font-size:13px">Interior renovation — Puri</p></div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" style="margin-top:16px">
+      <h3>ମାନେଜମେଣ୍ଟ ଟୀମ୍</h3>
+      <div class="team">
+        <!-- Director -->
+        <div class="member">
+          <img src="director.jpg" alt="Director Photo" />
+          <h3>ଶ୍ରୀମତୀ/ଶ୍ରୀ [Director Name]</h3>
+          <p>Director</p>
+          <p style="color:var(--muted);font-size:13px;margin-top:8px">Short message: ଆମ vision — quality construction with trust.</p>
+        </div>
+
+        <!-- Managing Director -->
+        <div class="member">
+          <img src="md.jpg" alt="Managing Director Photo" />
+          <h3>[Managing Director Name]</h3>
+          <p>Managing Director / Founder</p>
+          <p style="color:var(--muted);font-size:13px;margin-top:8px">Short bio: 20+ years experience in construction industry.</p>
+        </div>
+
+        <!-- Project Manager -->
+        <div class="member">
+          <img src="pm.jpg" alt="Project Manager Photo" />
+          <h3>[Project Manager Name]</h3>
+          <p>Project Manager</p>
+          <p style="color:var(--muted);font-size:13px;margin-top:8px">Short bio: Handles site operations and logistics.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & map placeholder -->
+    <section style="margin-top:16px">
+      <h3>ଯୋଗାଯୋଗ</h3>
+      <p>ଠିକଣା: Bhubaneswar, Odisha</p>
+      <p>Phone: +91 </p>
+      <p>Email: info@srabaniconstructions.com</p>
+      <!-- ଏଠାରେ Google Map iframe add କରିପାରିବେ -->
+    </section>
+
+    <!-- Footer -->
+    <footer style="margin-top:20px">
+      <p>© <span id="year"></span> Srabani Constructions • All rights reserved</p>
+      <p style="font-size:13px;color:#bcd">Website by Srabani Constructions</p>
+    </footer>
+
+  </div>[index.html](https://github.com/user-attachments/files/22139795/index.html)
